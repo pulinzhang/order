@@ -76,19 +76,19 @@ Response:
 
 ```
 src/main/java/com/example/order/
-├── command/                            # Command handling
-│   ├── application/                    # Command services
-│   ├── domain/                         # Domain models
-│   └── infrastructure/                 # Command persistence
-│       ├── OrderRepository.java        # JPA repository for order aggregates
-│       └── eventListener/              # Event listeners
+├── command/  # Command handling
+│   ├── application/  # Command services
+│   ├── domain/  # Domain models
+│   └── infrastructure/ # Command persistence
+│       ├── OrderRepository.java # JPA repository for order aggregates
+│       └── eventListener/  # Event listeners
 │           └── OrderEventListener.java # Listens for order events and updates read model
-├── query/                              # Query handling
-│   ├── application/                    # Query services
-│   ├── model/                          # Query models
-│   └── infrastructure/                 # Query persistence
-│       └── OrderViewRepository.java    # JPA repository for order view models
-└── controller/                         # REST endpoints
+├── query/  # Query handling
+│   ├── application/   # Query services
+│   ├── model/         # Query models
+│   └── infrastructure/ # Query persistence
+│       └── OrderViewRepository.java # JPA repository for order view models
+└── controller/ # REST endpoints
 ```
 
 ## Key Features
